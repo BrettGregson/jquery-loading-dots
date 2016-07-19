@@ -20,8 +20,7 @@ $(function(){
         };
         
         // init the plugin
-        self.init = function() {  
-		
+        self.init = function() {
 		 	self.options = $.extend({},$.dots.defaultOptions, options);
 		  
             if ( typeof( speed ) === "undefined" || speed === null ) speed = self.options.speed;
