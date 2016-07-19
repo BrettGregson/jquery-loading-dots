@@ -21,4 +21,4 @@ Methods:
 
 <pre>
 dots.stopDots(); // stops the dots animation (clears the interval)
-<pre>
+</pre>
