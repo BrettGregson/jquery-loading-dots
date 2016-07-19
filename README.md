@@ -6,5 +6,13 @@
 
 "Animated" jQuery loading dots. Works with centered text without changing the centered texts offset as the dots appear.
 
-Loading...
+Useage:
 
+<code>
+$("#loading").dots({
+	"speed"			: 50,
+	"numberOfDots"	: 10,
+	"loadingWord"	: "Loading",
+	"dotCharacter"	: ".",
+});
+</code>
