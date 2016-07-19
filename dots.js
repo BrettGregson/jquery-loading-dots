@@ -23,7 +23,8 @@ $(function(){
 		 	self.options = $.extend({},$.dots.defaultOptions, options);
 		  
             if ( typeof( speed ) === "undefined" || speed === null ) speed = self.options.speed;
-            if ( typeof( numberOfDots ) === "undefined" || numberOfDots === null ) numberOfDots = self.options.numberOfDots;
+			if ( typeof( numberOfDots ) === "undefined" || numberOfDots === null ) numberOfDots = self.options.numberOfDots;
+            if ( typeof( loadingWord ) === "undefined" || loadingWord === null ) loadingWord = self.options.loadingWord;
 			if ( typeof( dotCharacter ) === "undefined" || dotCharacter === null ) dotCharacter = self.options.dotCharacter;
             
             self.speed = speed;
