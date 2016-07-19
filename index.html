@@ -1,13 +1,21 @@
+Press ESC to stop the dots
 <div id="test" style="text-align:center; padding-top: 150px;"></div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="dots.js"></script>
 <script>
 	$(function(){
-		$("#test").dots({
+		var dots = $("#test").dots({
 			"speed"			: 50,
 			"numberOfDots"	: 10,
 			"loadingWord"	: "Loading",
 			"dotCharacter"	: ".",
+		});
+	
+		// stop the dots by pressing the escape key
+		$(document).keyup(function(e) {
+			if ( e.keyCode == 27 ) { 
+				dots.stopDots();
+			}
 		});
 	});
 </script>

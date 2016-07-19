@@ -47,8 +47,14 @@ $(function(){
         };
         
 		// start the plugin
-        self.init();    
+        self.init();  
+		
+		// clear the interval (stop the dots)
+		self.stopDots = function(){
+			clearInterval(self.theInterval);
+		};
     };
+	
     
     $.dots.defaultOptions = {
         speed			: 250,
@@ -58,6 +64,6 @@ $(function(){
     };
     
     $.fn.dots = function(options) {
-		new $.dots(this, options)
+		return new $.dots(this, options)
     };
 });
