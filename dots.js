@@ -13,8 +13,7 @@ $(function(){
 			// check if we have reached the max nubmer of dots, if so clear the dots
             if ( $elementement.text().length == numberOfDots ) {
                 $elementement.text("");
-            } else {
-				
+            } else {				
                 $elementement.append(dotCharacter);
             }
         };
