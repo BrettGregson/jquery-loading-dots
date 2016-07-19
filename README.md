@@ -4,7 +4,7 @@
 ![Alt text](http://i.imgur.com/CXv1R2y.gif "Loading")
 
 
-"Animated" jQuery loading dots. Works with centered text without changing the centered texts offset as the dots appear.
+"Animated" jQuery loading dots. Works with centered text without changing the centered texts position as the dots appear.
 
 Useage:
 
