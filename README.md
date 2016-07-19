@@ -8,11 +8,11 @@
 
 Useage:
 
-<code>
+<pre>
 $("#loading").dots({
 	"speed"			: 50,
 	"numberOfDots"	: 10,
 	"loadingWord"	: "Loading",
 	"dotCharacter"	: ".",
 });
-</code>
+</pre>
